@@ -1,0 +1,118 @@
+.About {
+    margin-top: 150px;
+}
+.About .About-container {
+    margin-top: 7.4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 6.4rem;
+}
+.About .about-head-container {
+    margin-top: 0;
+} 
+
+.About .details {
+    width: 48.09663%;
+}
+
+.About .details p {
+    font-size: 2rem;
+    font-family: 'Open Sans' !important;
+    line-height: 3.2rem;
+}
+
+.About .achieve {
+    display: flex;
+    flex-direction: column;
+    gap: 5.6rem;
+}
+.About .achieve li {
+    display: inline-flex;
+    align-items: center;
+}
+.About .achieve li .img {
+    position: relative;
+}
+.About .achieve li img {
+    padding: 1.6rem;
+    background: #F0F9FF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.About .achieve li:not(:last-child) .img::after{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 56px;
+    bottom: -56px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--main-color);
+}
+
+.About .achieve li span {
+    color: var(--span-color);
+    font-family: 'Open Sans' !important;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    padding-left: 2rem;
+    flex: 1;
+}
+
+
+
+@media(max-width : 1022px) {    
+    .About .container {
+        flex-direction: column-reverse;
+    }
+    .About .details {
+        width: 100%;
+    }
+}
+
+@media(max-width : 767px) {
+    .About {
+        margin-top: 30px;
+    }
+    .About .container {
+        margin-top: 2rem;
+        gap: 2.4rem;
+    }
+    .About .details .first{
+        font-size: 1.2rem;
+        line-height: 14px;
+        margin: 0;
+    }
+    .About .achieve {
+        gap: 2.4rem;
+    }      
+    .About .achieve li span {
+        font-size: 1.2rem;
+        line-height: 14px;
+    }
+    .About .achieve li img {
+        padding: .6rem;
+        width: 28px;
+    }
+    .About .achieve li:not(:last-child) .img::after {
+        height: 28px;
+        bottom: -28px;
+    }
+}
+
+
+
+
+
+
+
+
+/* arabic style */
+
+
+
+
+.ar .About .achieve li span {
+    padding-left: 0;
+    padding-right: 2rem;
+}
