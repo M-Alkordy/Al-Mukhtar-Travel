@@ -1,0 +1,49 @@
+.pop-up-card {
+  position: fixed !important;
+  top: 50px !important;
+  width: 70vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  transition-duration: .5s;
+  z-index: 100 !important;
+}
+@media(max-width:992px) {
+  .pop-up-card {
+    top: 150px !important;
+    width: 80vw !important;
+    height: 550px !important;
+  }
+}
+@media(max-width:767px) {
+  .pop-up-card {
+    top: 150px !important;
+    width: 80vw !important;
+    height: 450px !important;
+  }
+}
+.pop-up-card .icon-pop {
+  cursor: pointer;
+  display: block !important;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.541);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.pop-up-card .text p {
+  overflow: auto !important;
+  height: 120px !important;
+}
+.pop-up-card .icon-pop svg {
+  padding: 0;
+  margin: 0;
+}

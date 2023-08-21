@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;900&display=swap');
+
+:root {
+    --main-color        : #101F46;   
+    --sub-head-color    : #F56960;
+    --para-color        : #383838;
+    --span-color        :   #383838;
+    
+
+
+    --fw-900            : 900;
+    --fw-700            : 700;
+    --fw-600            : 600;
+    --fw-400            : 400;
+}
+* {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+body.ar {
+    font-family: 'Tajawal', sans-serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+.head-container {
+    text-align: center;
+    margin: 135px auto 0;
+    max-width: 54%;
+}
+.head-container .main-heading {
+    color: var(--main-color);
+    font-size: 4.8rem;
+    font-weight: var(--fw-900);
+    line-height: 52.8px;
+    text-transform: uppercase;
+}
+
+
+.head-container h2 {
+    color: var(--sub-head-color);
+    font-size: 1.5rem;
+    font-weight: var(--fw-700);
+    line-height: 1.8rem;
+    width: max-content;
+    margin: 0 auto;
+    /* position: relative; */
+    text-transform: uppercase;
+    /* padding-left: 76px; */
+}
+/* .head-container h2::before {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 2px;
+    top: 50%;
+    left: -70px;
+    transform: translate(70px,-50%);
+    background-color: var(--sub-head-color);
+} */
+.head-container .head-para {
+    color: var(--para-color);
+    font-family: 'Open Sans' !important; 
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: var(--fw-400);
+    line-height: 2.4rem;
+} 
+
+
+
+@media (max-width:767px) {
+    .head-container {
+        margin-top: 42px;
+        max-width: 54%;
+    }
+    .head-container .main-heading {
+        font-size: 2rem;
+        line-height: normal;
+    }
+    /* .head-container h2::before {
+        width: 20px;
+    } */
+    .head-container h2 {
+        font-size: 1.2rem;
+        /* padding-left: 24px; */
+    }
+    .head-container .head-para {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    }
+}
+
+
+
+
+/* Arabic  */
+

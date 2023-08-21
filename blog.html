@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts (open sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- google fonts (RaleWay) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css style -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/blog-style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <title>Al Mukhtar Travel</title>
+
+</head>
+
+<body>
+
+
+    <!-- Start nav -->
+
+    <nav>
+        <div class="container">
+            <a href="./index.html">
+                <div class="almoktar-logo" id="logo">
+                    <img src="./assets/img/Layer 3.svg" alt="">
+                </div>
+            </a>
+            <ul class="almokhtar-list">
+                <li><a href="./index.html" data-tr="home">home</a></li>
+                <li><a href="./index.html#services" data-tr="services">services</a></li>
+                <li><a href="./index.html#blogs" class="active" data-tr="blogs">blog & news</a></li>
+                <li><a href="./index.html#about-us" data-tr="about-us">about us</a></li>
+                <li><a href="./index.html#contact-us" data-tr="contact-us">contact us</a></li>
+                <li class="almokhtar-socials">
+                    <a href="https://facebook.com/"><img src="./assets/img/facebook.svg" alt=""></a>
+                    <a href="https://instagram.com/"><img src="./assets/img/instagram.svg" alt=""></a>
+                    <a href="https://linkedin.com/"><img src="./assets/img/linkedin.svg" alt=""></a>
+                </li>
+                <li class="focal-x">
+                    <span data-tr="footer-End-span">Created by</span>
+                    <br> <a href="https://focal-x.com/">
+                        <img src="./assets/img/focal X LOGO.png" alt="">
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-icon">
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End nav -->
+
+
+
+    <!-- Start blog details section -->
+    <section class="blog__details">
+
+    </section>
+    <!-- End blog details section -->
+    <!-- <section class="blogs" id="blogs">
+    <div class="container"> -->
+
+    <!--Start Realted Section  -->
+    <section class="related_section blogs">
+        <h1 class="related_section_h1" data-tr="related">related</h1>
+        <div class="container">
+            <div class="row cards-blog card-blog-sec">
+
+            </div>
+            <div class="dots-blog d-none d-flex-mobile dots-blog-sec">
+                <!-- <span class="dot-bl active-dot-bl" id="bl1"></span>
+              <span class="dot-bl" id="bl2"></span>
+              <span class="dot-bl" id="bl3"></span>
+              <span class="dot-bl" id="bl4"></span>
+              <span class="dot-bl" id="bl5"></span>
+              <span class="dot-bl" id="bl6"></span> -->
+            </div>
+        </div>
+    </section>
+    <!--End Realted Section  -->
+
+
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container ">
+            <div class="footer-container d-flex">
+                <div class="intro">
+                    <h1 data-tr="footer-intro-h1">About Almkhtar</h1>
+                    <p data-tr="footer-intro-p">A travel and tourism company interested in issuing visa, airline
+                        reservations and tourism events</p>
+                </div>
+
+                <div class="list">
+                    <h1 data-tr="footer-list-h1">useful links</h1>
+                    <ul>
+                        <li>
+                            <a href="#home" data-tr="footer-ul-a1">home</a>
+                        </li>
+                        <li>
+                            <a href="#services" data-tr="footer-ul-a2">services</a>
+                        </li>
+                        <li>
+                            <a href="#faq" data-tr="footer-ul-a3">faq</a>
+                        </li>
+                        <li>
+                            <a href="#contact-us" data-tr="footer-ul-a4">contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="form">
+                    <h1 data-tr="footer-form-h1">subscribe</h1>
+                    <form onsubmit="sendEmail(event)">
+                        <input class="my-Email" type="email" id="emailInput" placeholder="enter your email"
+                            data-tr="footer-form-input">
+                        <button type="submit" data-tr="footer-form-button" class="btn-form">subscribe now</button>
+                    </form>
+                </div>
+
+                <div class="social">
+                    <h1 data-tr="footer-social-h1">keep in touch</h1>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/almukhtar.traveling?mibextid=ZbWKwL" target="_blank"><img
+                                src="./assets/img/facebook.svg" alt=""></a>
+                        <a href="https://instagram.com/almukhtar.traveling?igshid=MzRlODBiNWFlZA==" target="_blank"><img
+                                src="./assets/img/instagram.svg" alt=""></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="End">
+            <div class="container">
+                <div class="logo">
+                    <span data-tr="footer-End-span">created by : </span>
+                    <a href="https://focal-x.com/" target="_blank">
+                        <img src="./assets/img/focal X LOGO.svg" alt="focal X company logo">
+                    </a>
+                </div>
+                <p data-tr="footer-End-p">Copyright &copy; 2021 Almukhtar. All rights reserveds</p>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+    <div class="blur SecBlur" style="visibility: hidden;"></div>
+    <div class="popUp SecpopUp" style="visibility:hidden;">
+        <img src="./assets/img/true.svg" alt="">
+        <p class='popUp_text' data-tr="Thank">
+            Thank you for trusting us.
+        </p>
+        <div id="popf">
+            <button class="close" id="SecclosePopUp" data-tr="Close">Close</button>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js.map"></script> <!-- bootstrap js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!-- font awesome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+        integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- main javaScript -->
+    <script src="./assets/js/translateArray.js"></script>
+<!--     <script src="./assets/js/pop.js"></script>
+ -->    <script src="./assets/js/blog.js"></script>
+</body>
+
+</html>
